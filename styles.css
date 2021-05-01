@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font: 16px sans-serif;
+	width: 100vw;
+}
+
+h1{
+	font-size: 50px;
+	margin: 50px 0;
+	text-align: center;
+}
+
+.form{
+	width: 500px;
+	margin: 150px auto 0;
+}
+
+.in-cont{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+label{
+	font-size: 20px;
+}
+
+.input{
+	padding: 10px 20px;
+	font-size: 20px;
+}
+
+.input-area{
+	resize: none;
+	padding: 10px 20px;
+	font-size: 20px;
+}
